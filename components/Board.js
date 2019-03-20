@@ -62,7 +62,7 @@ class Board extends Component {
                     <Text style={styles.info_text}>{this.state.duration}</Text>
                 </View>
                 <View style={styles.info_con}>
-                    <Text style={styles.info_text}>{asked_questions}/{correct_answers}</Text>
+                    <Text style={styles.info_text}>{correct_answers}/{asked_questions}</Text>
                 </View>
             </View>
         );
